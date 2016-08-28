@@ -1,0 +1,41 @@
+Developing Data Products - Coursera Project
+========================================================
+author: DataVizz
+date:   Best Car to Own Application
+autosize: true
+
+Project Requirements Overview
+========================================================
+
+This presentation is being created as part of the peer assessment for the coursera developing data products class. The assignment is geared toward ensuring the following concepts were well understood by the students:
+
+* to build shiny data product application 
+* to create data product related presentations using RStudio Presenter
+
+Best Car to Own Application
+========================================================
+
+To display the understanding of using shiny to build an application, a simple application called "Best Car to Own" has been developed and deployed at: https://datavizz.shinyapps.io/Best_Car_to_Own_App/
+
+The application allows you to:
+
+* Enter the estimated monthly car usage(in miles) and gasoline expenses
+* Enter the budgeted amount of money spent on gasoline per month
+* Choose the other desired attributes of car such as transmission, cylinder, displacement & horsepower 
+
+Based on your inputs, the application ranks the best car that the you should own.
+
+R code for my application is available here : https://github.com/DataVizz/Developing-Data-Products
+
+Data
+========================================================
+
+Dataset used for building this application is the mtcars data in R
+
+```{r}
+
+library(datasets)
+
+head(mtcars)
+
+```
